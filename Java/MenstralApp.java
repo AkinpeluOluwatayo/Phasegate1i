@@ -30,7 +30,7 @@ public class MenstralApp{
      System.out.println("Your safe date starts on the: " + safePeriod + " " + "till" + " " + endSafePeriod);
     
 
-
+ 
 
 
 
