@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public Class Mbti {
+public class Mbti {
   public static void main(String[] args){
 
    Scanner input = new Scanner(System.in);
@@ -26,7 +26,7 @@ public Class Mbti {
 	{"14 A. Focus on here and now, \t B. Look to the future, global perspective, big picture"},
 	{"15 A. Tough minded, just \t B. Tender hearted, merciful"},
 	{"16 A. Preparation, plan ahead \t B. Go with the flow, adapt as you go"},
-	{"17 A. Active, initiate \t B. Reflective, deliberate"}
+	{"17 A. Active, initiate \t B. Reflective, deliberate"},
 	{"18 A. Facts, things, what is \t B. Ideas, dreams, what could be, philosophical"},
 	{"19 A. Matter of fact, issue oriented \t B. Sensitive, people oriented, compassionate"},
 	{"20 A. Control, govern, \t B. Lattitude, freedom"}
@@ -47,64 +47,64 @@ public Class Mbti {
 
 	}
 
-	sizeEI[0] = answer[0];
-	sizeEI[1] = answer[4];
-	sizeEI[2] = answer[8];
-	sizeEI[3] = answer[12];
-	sizeEI[4] = answer[16];
+	sizeEI[0] = results[0];
+	sizeEI[1] = results[4];
+	sizeEI[2] = results[8];
+	sizeEI[3] = results[12];
+	sizeEI[4] = results[16];
 
 
-	sizeSN[0] = answer[1];
-	sizeSN[1] = answer[5];
-	sizeSN[2] = answer[9];
-	sizeSN[3] = answer[13];
-	sizeSN[4] = answer[17];
+	sizeSN[0] = results[1];
+	sizeSN[1] = results[5];
+	sizeSN[2] = results[9];
+	sizeSN[3] = results[13];
+	sizeSN[4] = results[17];
 
 
 
-	sizeTF[0] = answer[2];
-	sizeTF[1] = answer[6];
-	sizeTF[2] = answer[10];
-	sizeTF[3] = answer[14];
-	sizeTF[4] = answer[18];
+	sizeTF[0] = results[2];
+	sizeTF[1] = results[6];
+	sizeTF[2] = results[10];
+	sizeTF[3] = results[14];
+	sizeTF[4] = results[18];
 
 
-	sizeJP[0] = answer[3];
-	sizeJP[1] = answer[7];
-	sizeJP[2] = answer[11];
-	sizeJP[3] = answer[15];
-	sizeJP[4] = answer[19];
+	sizeJP[0] = results[3];
+	sizeJP[1] = results[7];
+	sizeJP[2] = results[11];
+	sizeJP[3] = results[15];
+	sizeJP[4] = results[19];
 
 
 	System.out.println("The result for question 1,5,9,13,17");
 	System.out.println(sizeEI[0]);
-	System.out.println(sizeEI[1]));
-	System.out.println(sizeEI[2]));
-	System.out.println(sizeEI[3]));
-	System.out.println(sizeEI[4]))
+	System.out.println(sizeEI[1]);
+	System.out.println(sizeEI[2]);
+	System.out.println(sizeEI[3]);
+	System.out.println(sizeEI[4]);
 
 
 	System.out.println("The result for question 2,6,10,14,18");
 	System.out.println(sizeSN[0]);
-	System.out.println(sizeSN[1]));
-	System.out.println(sizeSN[2]));
-	System.out.println(sizeSN[3]));
-	System.out.println(sizeSN[4]))
+	System.out.println(sizeSN[1]);
+	System.out.println(sizeSN[2]);
+	System.out.println(sizeSN[3]);
+	System.out.println(sizeSN[4]);
 
 	System.out.println("The result for question 3,7,11,15,19");
 	System.out.println(sizeTF[0]);
-	System.out.println(sizeTF[1]));
-	System.out.println(sizeTF[2]));
-	System.out.println(sizeTF[3]));
-	System.out.println(sizeTF[4]))
+	System.out.println(sizeTF[1]);
+	System.out.println(sizeTF[2]);
+	System.out.println(sizeTF[3]);
+	System.out.println(sizeTF[4]);
 
 
 	System.out.println("The result for question 4,8,12,16,20");
 	System.out.println(sizeJP[0]);
-	System.out.println(sizeJP[1]));
-	System.out.println(sizeJP[2]));
-	System.out.println(sizeJP[3]));
-	System.out.println(sizeJP[4]))
+	System.out.println(sizeJP[1]);
+	System.out.println(sizeJP[2]);
+	System.out.println(sizeJP[3]);
+	System.out.println(sizeJP[4]);
 
 
 	System.out.println("Thank you, here are your answers: ");
